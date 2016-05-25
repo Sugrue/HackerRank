@@ -72,6 +72,8 @@ class matrix():
             return False
 
     def print(self, rotation=0):
+        rotation = rotation % ((self.width + self.height)*2)
+        print(rotation)
         output = ""
         #print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         for y in range(0, self.height):
