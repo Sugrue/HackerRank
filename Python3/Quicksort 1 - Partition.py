@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/quicksort1
+
 def quick_sort(left):
     if not len(left) > 1: return left
     pivot = left.pop(0)

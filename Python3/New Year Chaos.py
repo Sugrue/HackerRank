@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/new-year-chaos
+
 def solve(queue):
     bribe = [0]*len(queue)
     complete =  False

@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/runningtime
+
 def sort(arr):
     index = counter = 0
     while index < len(arr)-1:

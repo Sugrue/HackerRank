@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/stockmax
+
 def calculate(prices):
     peaks = [0]*len(prices)
     peaks[len(prices)-1] = -1

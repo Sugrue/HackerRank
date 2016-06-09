@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/the-grid-search
+
 def solve(grid, pattern):
     for r in range(len(grid)-(len(pattern)-1)):
         for c in range(len(grid[0])-(len(pattern[0])-1)):

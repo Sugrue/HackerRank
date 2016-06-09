@@ -1,5 +1,7 @@
-#Pre-research attempt Fails miserably with large numbers
 
+# https://www.hackerrank.com/challenges/sherlock-and-the-beast
+
+#-------------[ Pre-research attempt ]--------------
 class DecentNumber():
     def __init__(self, length):
         starting = ""
@@ -62,6 +64,7 @@ class DecentNumber():
     def getresult(self):
         return self.result
 
+#-----------[ Correct Solution ]-------------
 
 def decentnumber(fives):
     threes = 0

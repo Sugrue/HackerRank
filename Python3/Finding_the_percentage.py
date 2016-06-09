@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/finding-the-percentage
+
 if __name__ == '__main__':
 
     num = int(input())

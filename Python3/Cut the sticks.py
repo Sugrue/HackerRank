@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/cut-the-sticks
+
 def cut(sticks):
     smallest = sticks[0]
     output = []

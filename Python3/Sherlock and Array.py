@@ -1,13 +1,4 @@
-# def solve(array):
-#     if len(array) == 1:
-#         return "YES"
-#
-#     for i in range (1, len(array)-1):
-#         if sum(array[:i]) == sum(array[i+1:]):
-#             return "YES"
-#
-#     return "NO"
-#
+# https://www.hackerrank.com/challenges/sherlock-and-array
 def sum(array):
     output = 0
     for i in array:

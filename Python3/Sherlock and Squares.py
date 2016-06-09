@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/sherlock-and-squares
+
 import math
 
 def watson_counts(a, b):

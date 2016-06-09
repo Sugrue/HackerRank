@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/chocolate-feast
+
 def chocolateFeast(n, c, m):
     return n//c + recurse_wrapper(n//c, m)
 
